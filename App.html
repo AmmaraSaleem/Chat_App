@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="whatapp">
+   
+  
+
+    <div class="chat">
+        <form id="nameForm" >
+            <input type="text" id="name-input"placeholder="Enter your name">
+            <button id="name-btn" > Enter Name</button>
+         
+        </form>  
+        
+      
+        <div class="chat-header" >
+            
+            <i class="far fa-user-circle"></i>
+            <i class="fas fa-phone-square-alt"></i>
+            <i class="fas fa-video"></i>
+            
+          
+           
+             WhatsApp</div>
+        
+        <div class="chat-window" id="chat-window">
+            <ul id="messages">
+               
+               
+
+            </ul>
+            <form id="message-form">
+               
+                <input type="text" id="msg-input" placeholder="Enter a message" disabled>
+                <button id="msg-btn" disabled>Send</button>
+               
+            </form>
+
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
